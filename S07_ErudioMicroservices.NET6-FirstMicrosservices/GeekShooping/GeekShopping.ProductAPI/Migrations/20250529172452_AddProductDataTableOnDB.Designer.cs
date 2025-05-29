@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GeekShopping.ProductAPI.Migrations
 {
     [DbContext(typeof(MySQLContext))]
-    [Migration("20210806232651_AddProductDataTableOnDB")]
+    [Migration("20250529172452_AddProductDataTableOnDB")]
     partial class AddProductDataTableOnDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
